@@ -1,0 +1,8 @@
+@echo off
+setlocal enabledelayedexpansion
+
+rem Compile the Java source file
+javac sample.java
+
+rem Run the compiled Java class
+java sample
